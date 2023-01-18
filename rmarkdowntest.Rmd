@@ -8,6 +8,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+print("hello! from next door")
+
 # big heading 
 ## smaller heading 
 ### smallest heading 
