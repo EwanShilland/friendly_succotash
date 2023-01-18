@@ -1,5 +1,6 @@
 ---
 title: "Rmarkdown_test"
+date: 18/01/2023
 output: html_document
 ---
 
@@ -33,6 +34,6 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-## can include gifs using
+## can include gifs using rmarkdown code, not in an R code chunk 
 
 ![moving](Oloidien_chla_surfacearea_animated_plot)/[](Oloidien_chla_surfacearea_animated_plot)
