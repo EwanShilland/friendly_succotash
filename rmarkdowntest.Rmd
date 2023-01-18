@@ -1,0 +1,38 @@
+---
+title: "Rmarkdown_test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# big heading 
+## smaller heading 
+### smallest heading 
+
+## use ```{r} for R code sections before and 3 tick marks after block of code 
+
+### use {r echo = false} to hide code, or {r eval = false} to not run code, or {r message = false} to hide output
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## can include gifs using
+
+![moving](Oloidien_chla_surfacearea_animated_plot)/[](Oloidien_chla_surfacearea_animated_plot)
